@@ -42,7 +42,8 @@ extension HomeViewController {
     // MARK: - Private Method
 
     fileprivate func configUI() {
-        title = "Gank"
+        title = "Buzzler"
+        tableView.backgroundColor = Config.UI.titleColor
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 200
         tableView.separatorStyle = .none

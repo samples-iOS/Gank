@@ -566,7 +566,7 @@
 				INFOPLIST_FILE = Gank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = alloc.studio.Ganktest11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.failnicely.buzzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Gank/Config/Gank-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -582,7 +582,7 @@
 				INFOPLIST_FILE = Gank/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = alloc.studio.Ganktest11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.failnicely.buzzler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Gank/Config/Gank-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
