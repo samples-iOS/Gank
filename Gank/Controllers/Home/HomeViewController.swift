@@ -43,7 +43,8 @@ extension HomeViewController {
 
     fileprivate func configUI() {
         title = "Gank"
-        tableView.estimatedRowHeight = 100
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 200
         tableView.separatorStyle = .none
         tableView.refreshControl = UIRefreshControl()
         view.addSubview(tableView)
