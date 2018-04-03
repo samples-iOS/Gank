@@ -6,9 +6,9 @@ struct Config {
 
     struct UI {
         /// Gank's Navgation Title Color
-        static let titleColor = UIColor(r: 0.95, g: 0.96, b: 0.96, a: 1.0)
+        static let themeColor = UIColor(red: 0.96, green: 0.96, blue: 0.96, alpha: 1.00)
         /// Gank‘s ThemeColor
-        static let themeColor = UIColor(r: 255, g: 255, b: 255, a: 1)
+        static let titleColor = UIColor(red:0.71, green:0.86, blue:0.87, alpha:1.00)
     }
 }
 

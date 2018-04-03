@@ -40,6 +40,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="8dh-5E-zKM">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="navigation_menu_normal" style="plain" id="OcZ-YA-ND1">
+                            <color key="tintColor" red="0.71372549019607845" green="0.86274509803921573" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="M8c-wV-6N3" kind="presentation" id="BrT-2e-r93"/>
                             </connections>

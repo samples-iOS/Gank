@@ -43,11 +43,12 @@ extension HomeViewController {
 
     fileprivate func configUI() {
         title = "Buzzler"
-        tableView.backgroundColor = Config.UI.titleColor
+        tableView.backgroundColor = Config.UI.themeColor
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 200
         tableView.separatorStyle = .none
         tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.backgroundColor = Config.UI.themeColor
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
             make.edges.equalTo(view)
